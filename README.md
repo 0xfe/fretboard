@@ -7,6 +7,15 @@ Copyright (c) 2013 Mohit Muthanna Cheppudira.
 
 CoffeeScript and PaperJS.
 
+## Usage
+
+Simply instantiate a `Vex.Fretboard.Div` passing in the selector of a `div`
+element as the first parameter.
+
+Call `build(code)` on the instance to draw. If `code` is specified, it must
+be in the syntax described below. If `code` is not specified, the contents
+of the `div` element are parsed.
+
 ## Fretboard Syntax
 
 Take a look at the [article on My VexFlow](http://my.vexflow.com/articles/119)
