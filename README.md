@@ -18,6 +18,16 @@ of the `div` element are parsed.
 
 ## Fretboard Syntax
 
+![Example](https://github.com/0xfe/fretboard/raw/master/img/example.png "Example")
+
+The above fretboard was rendered with the following code:
+
+    fretboard
+    show frets=3,4,5 string=1
+    show frets=3,4,5 string=2 color=red
+    show fret=3 string=6 text=G
+    show notes=10/1,10/2,9/3,9/4
+
 Take a look at the [article on My VexFlow](http://my.vexflow.com/articles/119)
 for usage and examples.
 
